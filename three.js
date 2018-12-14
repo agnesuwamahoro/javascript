@@ -15,7 +15,7 @@ function myNumber(){
     var firstSide=parseInt(document.getElementById("firstSide").value);
     var secondSide=parseInt(document.getElementById("secondSide").value);
     var thirdSide=parseInt(document.getElementById("thirdSide").value);
-}
+
 
 
 
@@ -41,4 +41,4 @@ console.log("scalene triangle")
 
 else {alert("Not triangle")}
 
-
+}
