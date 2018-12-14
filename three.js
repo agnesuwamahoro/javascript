@@ -1,4 +1,12 @@
 function myFunction(){
-    var firstString=document.getElementById("myNumber").value;
-    alert(firstString);
-};if
+    var firstSide=document.getElementById("firstSide").value;
+    alert(firstSide)
+
+
+    var secondSide=document.getElementById("secondSide").value;
+    alert(secondSide)
+
+
+    var thirdSide=document.getElementById("thirdSide").value;
+    alert(thirdSide)
+}
