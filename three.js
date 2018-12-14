@@ -10,3 +10,4 @@ function myFunction(){
     var thirdSide=document.getElementById("thirdSide").value;
     alert(thirdSide)
 }
+if(is triangle(firstSide,secondSide,thrirdSide)){}
