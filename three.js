@@ -26,7 +26,7 @@ alert("Equilateral triangle");
 
 console.log("Equilateral");}
 
-else if("firstSide==secondSide||firstSide==thirdside||secondSide==thirdSide"){
+else if("firstSide===secondSide||firstSide===thirdside||secondSide===thirdSide"){
 
 alert("Isoseles triangle");
 
