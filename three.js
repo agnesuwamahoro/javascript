@@ -1,38 +1,39 @@
 /*function myFunction(){
-    var firstSide=document.getElementById("sideOne").value;
-    alert(firstSide)
+    var numbers[0]=document.getElementById("sideOne").value;
+    alert(numbers[0])
 
 
-    var secondSide=document.getElementById("sideTwo").value;
-    alert(secondSide)
+    var numbers[1]=document.getElementById("sideTwo").value;
+    alert(numbers[1])
 
 
-    var thirdSide=document.getElementById("sideThree").value;
-    alert(thirdSide)
+    var numbers[2]=document.getElementById("sideThree").value;
+    alert(numbers[2])
    
 }*/
 function myNumber(){
-    var firstSide=document.getElementById("sideOne").value;
-    var secondSide=document.getElementById("sideTwo").value;
-    var thirdSide=document.getElementById("sideThree").value;
+    var numbers=[sideOne,sideTwo,sideThree]
+    numbers[0]=document.getElementById("sideOne").value;
+    numbers[1]=document.getElementById("sideTwo").value;
+    numbers[2]=document.getElementById("sideThree").value;
+    
 
 
 
 
-
-    if (firstSide===secondSide && firstSide===thirdSide ){
+    if (numbers[0]===numbers[1] && numbers[0]===numbers[2] ){
 
      alert("Equilateral triangle");
 
     }
 
-    else if(firstSide===secondSide||firstSide===thirdside||secondSide===thirdSide){
+    else if(numbers[0]===numbers[1] && numbers[0]===numbers[2] && numbers[1]===numbers[2]){
 
     alert("Isoseles triangle");
 
    }
 
-   else if (firstSide+secondSide>thirdSide&&firstSide+thirdSide>secondSide&&secondSide+thirdSide>firstSide){
+   else if (numbers[0]+numbers[1]>numbers[2]&&numbers[0]+numbers[2]>numbers[1]&&numbers[1]+numbers[2]>numbers[0]){
     
    alert("scale triangle")
 
