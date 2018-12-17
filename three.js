@@ -1,44 +1,46 @@
-function myFunction(){
-    var firstSide=document.getElementById("firstSide").value;
+/*function myFunction(){
+    var firstSide=document.getElementById("sideOne").value;
     alert(firstSide)
 
 
-    var secondSide=document.getElementById("secondSide").value;
+    var secondSide=document.getElementById("sideTwo").value;
     alert(secondSide)
 
 
-    var thirdSide=document.getElementById("thirdSide").value;
+    var thirdSide=document.getElementById("sideThree").value;
     alert(thirdSide)
    
-}
+}*/
 function myNumber(){
-    var firstSide=parseInt(document.getElementById("firstSide").value);
-    var secondSide=parseInt(document.getElementById("secondSide").value);
-    var thirdSide=parseInt(document.getElementById("thirdSide").value);
+    var firstSide=document.getElementById("sideOne").value;
+    var secondSide=document.getElementById("sideTwo").value;
+    var thirdSide=document.getElementById("sideThree").value;
 
 
 
 
 
-    if (firstSide===secondSide&&thrirdSide===firstSide&&secondSide===thirdSide){
+    if (firstSide===secondSide && firstSide===thirdSide ){
 
-alert("Equilateral triangle");
+     alert("Equilateral triangle");
 
-console.log("Equilateral");}
+    }
 
-else if("firstSide===secondSide||firstSide===thirdside||secondSide===thirdSide"){
+    else if(firstSide===secondSide||firstSide===thirdside||secondSide===thirdSide){
 
-alert("Isoseles triangle");
+    alert("Isoseles triangle");
 
-console.log("Isosele triangle")}
+   }
 
-else if (firstSide+secondSide>thirdSide&&firstSide+thirdSide>secondSide&&secondSide+thirdSide>firstSide{
+   else if (firstSide+secondSide>thirdSide&&firstSide+thirdSide>secondSide&&secondSide+thirdSide>firstSide){
     
-alert("scale triangle")
+   alert("scale triangle")
 
-console.log("scalene triangle")
-}
 
-else {alert("Not triangle")}
+  }
+
+  else {
+    alert("Not triangle");
+  }
 
 }
