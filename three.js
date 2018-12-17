@@ -44,3 +44,6 @@ function myNumber(){
   }
 
 }
+function myReset(){
+    document.getElementById("myform").myReset();
+}
