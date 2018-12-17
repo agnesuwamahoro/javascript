@@ -9,16 +9,25 @@ Whith curiosite i have made this project just  to see how far I am in creating m
 we used visual studio code to writte some code and styling it .chrome to see some result 
 to open this project you must have a web-browser 
 
-##author
+## author
 Uwamahoro agnes
 
-###license
+### license
 
 this project is protectd under terms of MIT license
 
-###copyright
+### copyright
 2018
 
 #### link to live site on GitHub page
 
 https://github.com/agnesuwamahoro/javascript
+
+### BDD
+| __Description__                                                                __imput_|  __out put__   |
+|---------------------------------------------------------------------------    |
+| When i put in 3 equal numbers it will says it is  an equilatelal triangle      |  3,3,3    | equilateral |         
+| When i put 2 equal numbers different with one it says it is isocele triangle   |3,3,6      |isocele      |                                     
+| When i put 3 differents numbers it says scalene triangle                       |3,4,7       |scalene     |
+
+|When  i put 3 differents things to make a triangle it can not make a triangle   |3,5,B        |not a triangle|
